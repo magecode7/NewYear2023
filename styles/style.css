@@ -1,6 +1,6 @@
 @font-face {
 	font-family: 'Pudel'; 
-	src: url(/fonts/Pudelinka.ttf); 
+	src: url(/fonts/pud.ttf); 
 }
 
 @font-face {
@@ -57,4 +57,10 @@ img.tree {
     position: absolute;
     bottom: 0;
     width: 15vmax;
+}
+
+a.qr {
+    position: absolute;
+    right: 0;
+    bottom: 0;
 }
