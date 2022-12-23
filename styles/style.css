@@ -1,0 +1,60 @@
+@font-face {
+	font-family: 'Pudel'; 
+	src: url(/fonts/Pudelinka.ttf); 
+}
+
+@font-face {
+	font-family: 'Canc'; 
+	src: url(/fonts/CyrillicChancellor.ttf); 
+}
+
+body {
+    margin: 0%;
+    background: url(https://kartinkin.net/pics/uploads/posts/2022-08/1661281505_13-kartinkin-net-p-vektornii-fon-novii-god-krasivo-15.jpg);
+}
+
+div.lights {
+    background: url(https://sitespectr.ru/wp-content/uploads/2018/11/girlyanda0001.gif) repeat-x 50%;
+    height: 100px;
+}
+
+img.left_pine {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 30vmax;
+}
+
+img.right_pine {
+    position: absolute;
+    transform: scaleX(-1);
+    top: 0px;
+    right: 0px;
+    width: 30vmax;
+}
+
+header {
+    text-align: center;
+    font-family: 'Pudel';
+    font-size: 50px;
+    color: white;
+}
+
+div.head {
+    margin: 10vmax 0 0 0;
+}
+
+div.main {
+    text-align: center;
+    font-family: 'Pudel';
+    font-size: 25px;
+    color: white;
+    padding: 20px 15vmax 0px 15vmax;
+}
+
+
+img.tree {
+    position: absolute;
+    bottom: 0;
+    width: 15vmax;
+}
