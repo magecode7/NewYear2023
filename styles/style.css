@@ -1,15 +1,15 @@
 @font-face {
 	font-family: 'Pudel'; 
-	src: url(/fonts/pud.ttf); 
+	src: url(../fonts/pud.ttf); 
 }
 
 body {
     margin: 0%;
-    background: url(https://kartinkin.net/pics/uploads/posts/2022-08/1661281505_13-kartinkin-net-p-vektornii-fon-novii-god-krasivo-15.jpg);
+    background: url(../images/back.jpg);
 }
 
 div.lights {
-    background: url(https://sitespectr.ru/wp-content/uploads/2018/11/girlyanda0001.gif) repeat-x 50%;
+    background: url(../images/lights.gif) repeat-x 50%;
     height: 100px;
 }
 
@@ -28,15 +28,13 @@ img.right_pine {
     width: 30vmax;
 }
 
-header {
+div.head {
+    margin: 10vmax 0 0 0;
     text-align: center;
     font-family: 'Pudel';
     font-size: 50px;
     color: white;
-}
-
-div.head {
-    margin: 10vmax 0 0 0;
+    font-weight: bold;
 }
 
 div.main {
