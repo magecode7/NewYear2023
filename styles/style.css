@@ -3,11 +3,6 @@
 	src: url(/fonts/pud.ttf); 
 }
 
-@font-face {
-	font-family: 'Canc'; 
-	src: url(/fonts/CyrillicChancellor.ttf); 
-}
-
 body {
     margin: 0%;
     background: url(https://kartinkin.net/pics/uploads/posts/2022-08/1661281505_13-kartinkin-net-p-vektornii-fon-novii-god-krasivo-15.jpg);
@@ -59,7 +54,7 @@ img.tree {
     width: 15vmax;
 }
 
-a.qr {
+img.qr {
     position: absolute;
     right: 0;
     bottom: 0;
