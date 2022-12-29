@@ -1,7 +1,5 @@
 var isPlayed = false;
 
-window.onload=Play;
-
 function Play(){
   if (isPlayed) {
     isPlayed = false;

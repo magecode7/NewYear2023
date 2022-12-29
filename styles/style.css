@@ -3,9 +3,15 @@
 	src: url(../fonts/pud.ttf); 
 }
 
+@keyframes show_effect {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+
 body {
     margin: 0%;
-    background: url(../images/back.jpg);
+    background: url(../images/back.jpg) no-repeat center center fixed;
+    background-size: cover;
 }
 
 div.lights {
@@ -32,19 +38,20 @@ div.head {
     margin: 10vmax 0 0 0;
     text-align: center;
     font-family: 'Pudel';
-    font-size: 50px;
+    font-size: 60px;
     color: white;
     font-weight: bold;
+    animation: show_effect 2s forwards;
 }
 
 div.main {
     text-align: center;
     font-family: 'Pudel';
-    font-size: 25px;
+    font-size: 30px;
     color: white;
     padding: 20px 15vmax 0px 15vmax;
+    animation: show_effect 2s forwards;
 }
-
 
 img.tree {
     position: absolute;
